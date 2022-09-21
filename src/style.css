@@ -1,0 +1,68 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formContainer {
+    background-color: rgb(96, 165, 192);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 25px 60px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.logo {
+    color: #403d95;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title {
+    color: #403d95;
+    font-size: 13px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #403d95;;
+    width: 20vw;
+}
+
+form input::placeholder {
+    color: rgb(175, 175, 175);
+}
+form .signup {
+    background-color: #403d95;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup-p {
+    color: #7b7b7b;
+    font-size: 13px;
+    margin-top: 2vh;
+}
+
+.label-reg {
+    color: #403d95;
+}
+
+.pickAvatar {
+    font-size: 12px;
+}
