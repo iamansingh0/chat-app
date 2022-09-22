@@ -9,9 +9,9 @@ const Login = () => {
             <form>
                 <input type="email" placeholder='Enter your email'/>
                 <input type="password" placeholder='Password'/>
-                <button className='signup'>Sign in</button>
+                <button className='sign'>Sign in</button>
             </form>
-            <p className='signup-p'>You don't have an account? Register</p>
+            <p className='sign-p'>You don't have an account? Register</p>
         </div>
     </div>
   )

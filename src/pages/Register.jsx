@@ -12,9 +12,9 @@ const Register = () => {
                 <input type="password" placeholder='Set password'/>
                 <input style={{display: "none"}} type="file" id='avatar'/>
                 <label htmlFor='avatar' className='label-reg'><i class="file icon big"></i><span className='pickAvatar'>Pick an avatar</span></label>
-                <button className='signup'>Sign up</button>
+                <button className='sign'>Sign up</button>
             </form>
-            <p className='signup-p'>You do have an account? Login</p>
+            <p className='sign-p'>You do have an account? Login</p>
         </div>
     </div>
   )
