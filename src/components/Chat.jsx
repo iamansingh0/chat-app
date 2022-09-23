@@ -1,4 +1,6 @@
 import React from "react";
+import Msgs from './Msgs';
+import Input from './Input'
 
 function Chat() {
   return (
@@ -11,6 +13,8 @@ function Chat() {
           <i class="ellipsis horizontal icon"></i>
         </div>
       </div>
+      <Msgs />
+      <Input />
     </div>
   );
 }
